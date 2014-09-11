@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Edgware{% if page.title %} : {{ page.title }}{% endif %}</title>
+	
+	<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+	<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+
+    <script src="/jquery/js/jquery-1.9.1.js"></script>
+	<link href="/css/simplegrid.css" rel="stylesheet" media="screen">
+	<link href="/css/style.css" rel="stylesheet" media="screen">
+	<link href="/css/front.css" rel="stylesheet" media="screen">
+	<link href="/css/docs.css" rel="stylesheet" media="screen">
+	<link href="/css/blog.css" rel="stylesheet" media="screen">
+</head>
+<body>
+
+<div class="header">
+    <div class="header-content">
+        <div class="brand"><a href="/"><img class="logo" src="/images/edgware_logo.png"/></a></div>
+        <ul class="navigation">
+            <li {% if page.url == "/index.html" %}class="current"{% endif %}><a href="/">home</a></li>
+            <!-- <li {% if page.url contains '/blog/' %}class="current"{% endif %}><a href="/blog/">blog</a></li> -->
+            <li {% if page.url contains '/docs/' %}class="current"{% endif %}><a href="/docs/">documentation</a></li>
+            <li><a href="http://github.com/edgware">github</a></li>
+        </ul>
+        <a href="#" class="menu"><i class="icon-reorder icon-2x"></i></a>
+    </div>
+</div>
+

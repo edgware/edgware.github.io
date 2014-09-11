@@ -1,0 +1,4 @@
+name: Edgware
+markdown: kramdown
+pygments: true
+permalink: /blog/:categories/:year/:month/:day/:title.html
