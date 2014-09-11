@@ -36,7 +36,7 @@ If a correlation ID has been provided then Edgware will respond with a message i
 | `state`  | \<new-state>          | The new state of the system, one of `running`, indicting that each of the system's subscriptions has been initialised and it will begin to receive messages, or `stopped`, indicating that each of the system's subscriptions has been terminated and it will no longer receive messages. |
 | `correl` | \<correlation-id>     |  Client-defined correlation ID identifying the response. |
 
-####Example
+#### Example
 
     {
     	"op" : "state:system",
@@ -47,9 +47,36 @@ If a correlation ID has been provided then Edgware will respond with a message i
 
 Once the state change has been actioned Edgware will (if requested) send an acknowledgement of the form:
 
-	{
-		"op" : "state-change:system",
-		"id" : "<platform-id>/<system-id>",
-		"state" : "<new-state>",
-		"correl" : "<correlation-id>"
-	}
+    {
+        "op" : "state-change:system",
+        "id" : "<platform-id>/<system-id>",
+        "state" : "<new-state>",
+        "correl" : "<correlation-id>"
+    }
+
+### Client disconnection
+
+To ensure that a client disconnects cleanly from its Edgware Node it should send a disconnect message. This will stop its active systems and terminate remote connections (e.g. active subscriptions).
+
+Clients using the MQTT protocol can register this message as the MQTT last will and testament message associated with their connection to the Edgware Node's broker. As such, should the connection to the broker be lost unexpectedly, the broker will send the message to the Edgware Node automatically on behalf of the client giving a fail-safe clean up mechanism.
+
+To set issue a disconnect, a JSON message of the following form is sent to the local Edgware node:
+
+| Field       | Value        | Description |
+| ----------- | ------------ | ----------- | 
+| `op`        | `disconnect` | Identifies a disconnection message. |
+| `client-id` | \<client-id> | The ID of the client to be disconnected. When using the MQTT protocol this is the MQTT connection client-id. |
+
+The `disconnect` message may also include the following optional field:
+ 
+| Field    | Value             | Description |
+| -------- | ----------------- | ----------- | 
+| `correl` | \<correlation-id> | Client-defined correlation ID, present if a status response is required. (Note that no response will be received if the disconnection messaged is delivered as a last will and testament message.) |
+
+####Example
+
+    {
+        "op" : "disconnect",
+        "client-id" : "<mqtt-client-id>",
+        "correl" : "<correlation-id>"
+    }
