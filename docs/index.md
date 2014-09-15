@@ -21,8 +21,5 @@ Publish/subscribe decouples the producers and consumers of information. Edgware 
 
 If you have a question or suggestion, there are various places you can do so:
 
- - Subscribe to the [mailing list](https://groups.google.com/forum/#!forum/edgware)
-   and the [blog](http://blog.edgware-fabric.org)
- - Follow [@edgware](http://twitter.com/edgware-fabric) on Twitter
- - Chat on `#edgware` on `irc.freenode.net`
-
+ - Subscribe to the [mailing list](https://groups.google.com/forum/#!forum/edgware-fabric)
+ - Follow [@EdgwareFabric](https://twitter.com/EdgwareFabric) on Twitter
