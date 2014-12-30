@@ -4,10 +4,10 @@ title: Edgware API
 ---
 A lightweight JSON interface is provided for Edgware services and apps, i.e. producers and consumers of information. For simplicity we'll use the term app to cover anything that connects to Edgware.
 
-Apps send JSON messages Edgware and receive responses using one of two protocols:
+Apps send JSON messages to Edgware and receive responses using one of two protocols:
 
 1. MQTT: messages are published to a single input topic on the app's local broker, and response messages and notifications returned with a corresponding output topic.
-2. Web sockets: messages are sent to and received from Edgware using a Web sockets connection to the built-in Web server.
+2. WebSockets: messages are sent to and received from Edgware using a WebSocket connection to the built-in Web server.
 
 ### MQTT
 
@@ -51,6 +51,6 @@ Where:
 
 The topic for the will message is the inbound topic.
 
-### Web sockets
+### WebSockets
 
-An example of how to used the Web sockets interface is included in the source code. See the project fabric.tools.rest.
+An example of how to used the WebSocket interface is included in the source code. See the project fabric.tools.rest.
