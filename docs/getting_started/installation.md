@@ -32,4 +32,4 @@ If you want to run the very latest development code then you can clone the sourc
 
     $ git clone https://github.com/edgware/edgware.git
     
-Whilst we alway try to ensure the repository is bug-free please note that it may contain features that are still under development.
+Whilst we always try to ensure the repository is bug-free please note that it may contain features that are still under development.
