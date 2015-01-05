@@ -28,7 +28,7 @@ The `status` message may also include the following optional field:
 | ---------- | ------------------- | ----------- |
 | `encoding` | \<message-encoding> | The encoding of the message. The default is ASCII and other encodings are the responsibility of the publisher. For example, the publisher might choose to use a Base64 encoding for the `msg` field; in that case the `encoding` field might be `base64`.
 
-Asynchronous interfaces such as MQTT, unless otherwise specified, will generally not generate a status message unless a correlaton ID is included in the request.
+Asynchronous interfaces such as MQTT, unless otherwise specified, will generally not generate a status message unless a correlation ID is included in the request.
 
 However, messages containing syntax errors (i.e. messages that are not parsable by Edgware), or that result internal run-time errors in Edgware, will generate unsolicited response messages without a correlation ID.
 
@@ -66,8 +66,8 @@ A status code is composed of three fields:
 
 | Code | Meaning |
 | ---- | ------- |
-| 1    | Parse error: an error parasing the JSON |
-| 2    | Parse error: an error parasing the JSON |
+| 1    | Parse error: an error parsing the JSON |
+| 2    | Actioning error: an error actioning the message |
 
 ### <a id="OpCodes"></a>Operation codes
 
