@@ -139,7 +139,7 @@ To register a new service type, a JSON message of the following form is sent to 
 | Field   | Value                   | Description |
 | ------- | ----------------------- | ------------- 
 | `op`    | `register:service-type` | Identifies a service type registration message. |
-| `id`    | \<service-type>         | The service type to be registered. |
+| `type`  | \<service-type>         | The service type to be registered. |
 | `mode`  | \<service-mode>         | The mode of the service type, one of `input-feed`, `output-feed`, `notification`, `listener`, `solicit-response` or `request-response`.
 
 The `register:service-type` message may also include the following optional fields:
