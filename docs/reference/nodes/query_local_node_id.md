@@ -24,7 +24,7 @@ A query of the form:
 
 	{
 		"op" : "query:local-node",
-		"correl" : "<correlation-id>",
+		"correl" : "<correlation-id>"
 	}
     
 Will generate a response in the form:

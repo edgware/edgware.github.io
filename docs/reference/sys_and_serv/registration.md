@@ -93,7 +93,7 @@ To register a new system type, a JSON message of the following form is sent to t
         <td>A set of attributes associated with the service. Service attributes are not defined by Edgware.</td>
     </tr>
     <tr>
-        <td colspan="4">An extended form of this message is available to register additonal information about the system type using the following optional fields:</td>
+        <td colspan="4">An extended form of this message is available to register additional information about the system type using the following optional fields:</td>
     </tr>
     <tr>
         <td><code>desc</code></td>
@@ -110,7 +110,7 @@ To register a new system type, a JSON message of the following form is sent to t
     <tr>
         <td><code>correl</code></td>
         <td></td>
-        <td>&lt;correlaton-­‐id&gt;</td>
+        <td>&lt;correlation­‐id&gt;</td>
         <td>Client-defined correlation ID, present if a status response is required</td>
     </tr>
 </table>

@@ -9,7 +9,7 @@ To register a new bearer (network), a JSON message of the following form is sent
 | -------------- | ---------------------- | ----------- | 
 | `op`           | `register:bearer`      | Identifies a bearer (network) registration message. |
 | `id`           | \<bearer-id>           | The ID of the bearer (network) to be registered. |
-| `availability` | \<bearer-availability> | The availability of the bearer (network), the string `"true"` or `"false"`). |
+| `available`    | \<bearer-availability> | The availability of the bearer (network), the string `"true"` or `"false"`). |
 
 The `register:bearer` message may also include the following optional fields:
 
