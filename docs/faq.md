@@ -23,7 +23,7 @@ Typical examples include distributed sensor network systems in domains such as:
 
 **Medical:** the use of integrated multi-modal sensors for applications such as remote patient monitoring (e.g., the ability to monitor patients in their own homes) will have a dramatic impact on health care delivery.
 
-###I'm a researcher, how can I use Edgeware?
+###I'm a researcher, how can I use Edgware?
 
 Edgware can be used to bridge the worlds of simulators and fielded systems. Using Edgware it is very easy to simulate and/or emulate live systems, and replay pre-recorded telemetry for experimental use, making it ideal as a research platform that offers a high degree of fidelity with fielded systems (indeed it is such a system).
 
