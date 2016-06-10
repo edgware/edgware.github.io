@@ -31,7 +31,7 @@ The `notify` message may also include the following optional fields:
 
 This message will be delivered to each of the named listener services, wherever they are on the bus.
 
-####Example   
+#### Example   
 
 	{
 		"op" : "notify",
@@ -60,7 +60,7 @@ The `notification` message may also include the following optional field:
 | ---------- | ------------------- | ----------- |
 | `encoding` | \<message-encoding> | The encoding of the message. The default is ASCII. |
 
-####Example   
+#### Example   
 
 	{
 		"op" : "notification",

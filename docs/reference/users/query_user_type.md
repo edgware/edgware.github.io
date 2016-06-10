@@ -69,7 +69,7 @@ Matching user types are returned in a JSON message of the form:
     </tr>
 </table>
 
-####Example   
+#### Example   
 
 	{
 		"op" : "query:user-types",

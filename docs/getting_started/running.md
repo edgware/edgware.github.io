@@ -17,13 +17,13 @@ To start the Edgware components as system services, see the `readme.txt` files u
 
 **Note:** these instructions assume that the Mosquitto broker is already running, either from the command line or as a system service. Ensure that your Mosquitto broker's configuration matches the sample given in `etc/broker.conf` in the Edgware root directory. See the Mosquitto documentation for more information on configuring your broker.
 
-####Starting the Registry####
+#### Starting the Registry
 
 	$ fabadmin -s -r <node-name>
 
 *\<node-name\>* is the name that you would like to assign to this Edgware node, and is the name by which it will be known on the bus. It could be, but does not have to be, the host name.
 
-####Starting the Edgware node####
+#### Starting the Edgware node
 
 Before you start your node for the first time it is necessary to tell Edgware which network interfaces to use. This is done using the command `fabreg` command:
 
@@ -35,7 +35,7 @@ The adapter list only needs to be set once (it will be persisted in the Edgware 
 
 	$fabadmin -s -n <node-name>
 
-####Starting the Web server (optional)####
+#### Starting the Web server (optional)
 
 	$ fabadmin -s -w
 

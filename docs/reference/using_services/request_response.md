@@ -31,7 +31,7 @@ The `request` message may also include the following optional field:
 | ---------- | ------------------- | ----------- |
 | `encoding` | \<message-encoding> | The encoding of the message. The default is ASCII and other encodings are the responsibility of the requester (although the encoding chosen must be supported by the responder). For example, the requester might choose to use a Base64 encoding for the `msg` field; in that case the `encoding` field might be `base64`. |
 
-####Example   
+#### Example   
 
 	{
 		"op" : "request",
@@ -61,7 +61,7 @@ The `response` message may also include the following optional field:
 | ---------- | ------------------- | ----------- |
 | `encoding` | \<message-encoding> | The encoding of the message. The default is ASCII and other encodings are the responsibility of the responder. For example, the responder might choose to use a Base64 encoding for the `msg` field; in that case the `encoding` field might be `base64`. |
 
-####Example   
+#### Example   
 
 	{
 		"op" : "response,
@@ -89,7 +89,7 @@ The `response` message may also include the following optional field:
 | ---------- | ------------------- | ----------- |
 | `encoding` | \<message-encoding> | The encoding of the message. The default is ASCII and other encodings are the responsibility of the responder. For example, the responder might choose to use a Base64 encoding for the `msg` field; in that case the `encoding` field might be `base64`. |
 
-####Example   
+#### Example   
 
 	{
 		"op" : "response",

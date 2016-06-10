@@ -30,7 +30,7 @@ The `register:system` message may also include the following optional fields:
 | `attr`   | \<system-attributes>  | A set of attributes associated with the system. This is a JSON object of the form `{"name" : <value>, ... }`. |
 | `correl` | \<correlation-id>     | Client-defined correlation ID. Present if a status response is required. |
 
-####Example   
+#### Example   
 
 	{
 		"op" : "register:system",
@@ -115,7 +115,7 @@ To register a new system type, a JSON message of the following form is sent to t
     </tr>
 </table>
 
-####Example   
+#### Example   
 
     {
 		"op" : "register:system-type",
@@ -151,7 +151,7 @@ The `register:service-type` message may also include the following optional fiel
 | `attr`   | \<service-type-attributes>  | A set of attributes associated with the service type. This is a JSON object of the form `{"name" : <value>, ... }`. |
 | `correl` | \<correlation-id>           | Client-defined correlation ID, present if a status response is required. |
 
-####Example   
+#### Example   
 
 	{
 		"op" : "register:service-type",

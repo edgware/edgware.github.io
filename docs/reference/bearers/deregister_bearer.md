@@ -16,7 +16,7 @@ The `deregister:bearer` message may also include the following optional fields
 | -------- | ----------------- | ----------- | 
 | `correl` | \<correlation-id> | Client-defined correlation ID, present if a status response is required. |
 
-####Example   
+#### Example   
 
 	{
 		"op" : "deregister:bearer",

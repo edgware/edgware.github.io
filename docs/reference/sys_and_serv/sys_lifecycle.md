@@ -73,7 +73,7 @@ The `disconnect` message may also include the following optional field:
 | -------- | ----------------- | ----------- | 
 | `correl` | \<correlation-id> | Client-defined correlation ID, present if a status response is required. (Note that no response will be received if the disconnection messaged is delivered as a last will and testament message.) |
 
-####Example
+#### Example
 
     {
         "op" : "disconnect",

@@ -16,7 +16,7 @@ The `deregister:platform-type` message may also include the following optional f
 | -------- | ----------------- | ----------- | 
 | `correl` | \<correlation-id> | Client-defined correlation ID, present if a status response is required. |
 
-####Example   
+#### Example   
 
 	{
 		"op" : "deregister:platform-type",

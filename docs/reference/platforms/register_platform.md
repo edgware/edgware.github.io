@@ -22,7 +22,7 @@ The `register:platform` message may also include the following optional fields:
 | `attr`   | \<platform-attributes>  |  A set of attributes associated with the platform. This is a JSON object of the form `{"name" : <value>, ... }`. |
 | `correl` | \<correlation-id>       |  Client-defined correlation ID, present if a status response is required. |
 
-####Example   
+#### Example   
 
 	{
 		"op" : "register:platform",

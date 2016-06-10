@@ -83,7 +83,7 @@ Matching users are returned in a JSON message of the form:
     </tr>
 </table>
 
-####Example   
+#### Example   
 
 A query of the form:
 

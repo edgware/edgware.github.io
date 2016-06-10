@@ -18,7 +18,7 @@ Information about the local node is returned in a JSON message of the form:
 | `correl` | \<correlation-id>         | Client-defined correlation ID to identify the response. |
 | `id`     | \<node-id>                | The ID of the local Edgware Node. |
 
-####Example   
+#### Example   
 
 A query of the form:
 

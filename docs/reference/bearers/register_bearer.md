@@ -31,7 +31,7 @@ For example:
     
 Note that bearers do not need to be unregistered – they can just be marked unavailable.
 
-####Example   
+#### Example   
 
 	{
 		"op" : "register:bearer",

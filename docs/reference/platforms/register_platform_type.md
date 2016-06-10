@@ -18,7 +18,7 @@ The `register:platform-type` message may also include the following optional fie
 | `attr`   | \<platform-type-attributes>  |  A set of attributes associated with the platform type. This is a JSON object of the form `{"name" : <value>, ... }`. |
 | `correl` | \<correlation-id>            |  Client-defined correlation ID, present if a status response is required. |
 
-####Example   
+#### Example   
 
 	{
 		"op" : "register:platform-type",

@@ -34,7 +34,7 @@ However, messages containing syntax errors (i.e. messages that are not parsable 
 
 Synchronous interfaces such as HTTP always generate status messages.
 
-####Example   
+#### Example   
 
 	{
 		"op" : "status",

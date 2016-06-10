@@ -29,7 +29,7 @@ The `deregister:system` message may also include the following optional field:
 
 The system and its services will no longer be available for use until re-registered.
 
-####Example   
+#### Example   
 
     {
     	"op" : "deregister:system",
@@ -54,7 +54,7 @@ The `deregister:system` message may also include the following optional field:
 
 The system type will only be deregistered if there are no instances of the specified type currently registered.
 
-####Example   
+#### Example   
 
     {
 	    "op" : "deregister:system-type",
@@ -79,7 +79,7 @@ The `deregister:service-type` message may also include the following optional fi
 
 The service type will only be deregistered if there are no system types using the specified service type currently registered.
 
-####Example   
+#### Example   
 
     {
 		"op" : "deregister:service-type",

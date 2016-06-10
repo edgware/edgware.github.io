@@ -16,7 +16,7 @@ The `deregister:user` message may also include the following optional field:
 | -------- | ----------------- | ----------- | 
 | `correl` | \<correlation-id> | Client-defined correlation ID, present if a status response is required. |
 
-####Example   
+#### Example   
 
 	{
 		"op" : "deregister:user",

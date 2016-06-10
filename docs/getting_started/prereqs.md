@@ -5,7 +5,7 @@ title: Prereqs
 
 To run Edgware please ensure that you meet the prereqs listed below.
 
-###Operating system
+### Operating system
 
 Edgware has been developed and tested on Windows, Linux, and OS X. Specifically, the following versions have been tested however other distros/versions are likely to work if all other prereqs are met:
 
@@ -27,7 +27,7 @@ Edgware has been developed and tested on Windows, Linux, and OS X. Specifically,
 
 * ​OS X 10.9.4
 
-###Prerequisite software
+### Prerequisite software
 
 Edgware has two software prereqs:
 

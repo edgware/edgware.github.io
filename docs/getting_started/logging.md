@@ -13,7 +13,7 @@ Edgware logging is a useful source of diagnostic information for use in problem 
 
 	$FABRIC_HOME/log
 
-###Configuring logging###
+### Configuring logging
 
 The level of detail included in log output can be controlled via the configuration file `fabricConfig_default.properties` in the directory:
 

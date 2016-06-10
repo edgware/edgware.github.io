@@ -68,7 +68,7 @@ To register a node as a neighbour of the local Edgware node, a JSON message of t
 </table>
 
 
-####Example   
+#### Example   
 
 	{
 		"op" : "register:node",
