@@ -5,7 +5,7 @@ title: Installation
 
 Before installing Edgware ensure that your system meets the [prereqs](prereqs.html).
 
-Download the [latest stable release](http://edgware-fabric.org/download) of Edgware from [http://edgware-fabric.org](http://edgware-fabric.org). The `.zip` or `.gzip` contains a top-level folder called `edgware-X.Y.Z` where `X.Y.Z` is the version number. Once extracted, from within that top-level folder, run the appropriate command for your operating system:
+Download the [latest stable release](http://github.com/edgware/builds) of Edgware from [http://edgware-fabric.org](http://edgware-fabric.org). The `.zip` or `.gzip` contains a top-level folder called `edgware-X.Y.Z` where `X.Y.Z` is the version number. Once extracted, from within that top-level folder, run the appropriate command for your operating system:
 
 **Linux and OS X**
 
