@@ -1,101 +1,99 @@
 <ul class="toc">
+    <li class="toc-expander"><div>V</div></li>
     <li class="tocheader"><span>Documentation</span>
         <ul>
-            <li><a href="/docs/index.html" {% if page.url == "/docs/index.html" %}class="active"{% endif %}>Introduction</a>
-            <li><a href="/docs/m2m_middleware.html" {% if page.url == "/docs/m2m_middleware.html" %}class="active"{% endif %}>Why M2M middleware?</a>
-            <li><a href="/docs/faq.html" {% if page.url == "/docs/faq.html" %}class="active"{% endif %}>FAQ</a>
-            <li><a href="/docs/acknowledgements.html" {% if page.url == "/docs/acknowledgements.html" %}class="active"{% endif %}>Acknowledgements</a>
+            <li {% if page.url == "/docs/" %}class="active"{% endif %}><a href="/docs/index.html">Introduction</a></li>
+            <li {% if page.url == "/docs/m2m_middleware" %}class="active"{% endif %}><a href="/docs/m2m_middleware.html">Why M2M middleware?</a></li>
+            <li {% if page.url == "/docs/faq" %}class="active"{% endif %}><a href="/docs/faq.html">FAQ</a></li>
+            <li {% if page.url == "/docs/acknowledgements" %}class="active"{% endif %}><a href="/docs/acknowledgements.html">Acknowledgements</a></li>
         </ul>
     </li>
     <li class="tocheader"><span>Getting started</span>
         <ul>
-            <li><a href="/docs/getting_started/prereqs.html" {% if page.url == "/docs/getting_started/prereqs.html" %}class="active"{% endif %}>Prereqs</a>
-            <li><a href="/docs/getting_started/installation.html" {% if page.url == "/docs/getting_started/installation.html" %}class="active"{% endif %}>Installation</a>
-            <li><a href="/docs/getting_started/running.html" {% if page.url == "/docs/getting_started/running.html" %}class="active"{% endif %}>Running Edgware</a>
-            <li><a href="/docs/getting_started/logging.html" {% if page.url == "/docs/getting_started/logging.html" %}class="active"{% endif %}>Edgware log files</a>
+            <li {% if page.url == "/docs/getting_started/prereqs" %}class="active"{% endif %}><a href="/docs/getting_started/prereqs.html">Prereqs</a></li>
+            <li {% if page.url == "/docs/getting_started/installation" %}class="active"{% endif %}><a href="/docs/getting_started/installation.html">Installation</a></li>
+            <li {% if page.url == "/docs/getting_started/running" %}class="active"{% endif %}><a href="/docs/getting_started/running.html">Running Edgware</a></li>
+            <li {% if page.url == "/docs/getting_started/logging" %}class="active"{% endif %}><a href="/docs/getting_started/logging.html">Edgware log files</a></li>
         </ul>
     </li>
     <li class="tocheader"><span>Using Edgware</span>
         <ul>
-            <li><a href="/docs/using_edgware/api.html" {% if page.url == "/docs/using_edgware/api.html" %}class="active"{% endif %}>Edgware API</a></li>
-            <li><a href="/docs/using_edgware/plat_sys_serv.html" {% if page.url == "/docs/using_edgware/plat_sys_serv.html" %}class="active"{% endif %}>Platforms, systems and services</a></li>
-            <li><a href="/docs/using_edgware/service_types.html" {% if page.url == "/docs/using_edgware/service_types.html" %}class="active"{% endif %}>Service types</a></li>
-            <li><a href="/docs/using_edgware/producer.html" {% if page.url == "/docs/using_edgware/producer.html" %}class="active"{% endif %}>Sharing information</a></li>
-            <li><a href="/docs/using_edgware/consumer.html" {% if page.url == "/docs/using_edgware/consumer.html" %}class="active"{% endif %}>Consuming information</a></li>
+            <li {% if page.url == "/docs/using_edgware/api" %}class="active"{% endif %}><a href="/docs/using_edgware/api.html">Edgware API</a></li>
+            <li {% if page.url == "/docs/using_edgware/plat_sys_serv" %}class="active"{% endif %}><a href="/docs/using_edgware/plat_sys_serv.html">Platforms, systems and services</a></li>
+            <li {% if page.url == "/docs/using_edgware/service_types" %}class="active"{% endif %}><a href="/docs/using_edgware/service_types.html">Service types</a></li>
+            <li {% if page.url == "/docs/using_edgware/producer" %}class="active"{% endif %}><a href="/docs/using_edgware/producer.html">Sharing information</a></li>
+            <li {% if page.url == "/docs/using_edgware/consumer" %}class="active"{% endif %}><a href="/docs/using_edgware/consumer.html">Consuming information</a></li>
         </ul>
     </li>
-    </ul>
+    
+    <li class="tocheader"><span>Reference</span></li>
 
-<h4>Reference</h4>
-<ul class="toc">
     <li class="tocheader"><span>Systems and services </span>
         <ul>
-            <li><a href="/docs/reference/sys_and_serv/registration.html" {% if page.url == "/docs/reference/sys_and_serv/registration.html" %}class="active"{% endif %}>System and service registration</a></li>
-            <li><a href="/docs/reference/sys_and_serv/sys_lifecycle.html" {% if page.url == "/docs/reference/sys_and_serv/sys_lifecycle.html" %}class="active"{% endif %}>System lifecycle management</a></li>
-            <li><a href="/docs/reference/sys_and_serv/deregistration.html" {% if page.url == "/docs/reference/sys_and_serv/deregistration.html" %}class="active"{% endif %}>System and service deregistration</a></li>
-            <li><a href="/docs/reference/sys_and_serv/query_sys.html" {% if page.url == "/docs/reference/sys_and_serv/query_sys.html" %}class="active"{% endif %}>Querying for systems</a>
-            <li><a href="/docs/reference/sys_and_serv/query_sys_types.html" {% if page.url == "/docs/reference/sys_and_serv/query_sys_types.html" %}class="active"{% endif %}>Querying for system types</a>
+            <li {% if page.url == "/docs/reference/sys_and_serv/registration" %}class="active"{% endif %}><a href="/docs/reference/sys_and_serv/registration.html">System and service registration</a></li>
+            <li {% if page.url == "/docs/reference/sys_and_serv/sys_lifecycle" %}class="active"{% endif %}><a href="/docs/reference/sys_and_serv/sys_lifecycle.html">System lifecycle management</a></li>
+            <li {% if page.url == "/docs/reference/sys_and_serv/deregistration" %}class="active"{% endif %}><a href="/docs/reference/sys_and_serv/deregistration.html">System and service deregistration</a></li>
+            <li {% if page.url == "/docs/reference/sys_and_serv/query_sys" %}class="active"{% endif %}><a href="/docs/reference/sys_and_serv/query_sys.html">Querying for systems</a></li>
+            <li {% if page.url == "/docs/reference/sys_and_serv/query_sys_types" %}class="active"{% endif %}><a href="/docs/reference/sys_and_serv/query_sys_types.html">Querying for system types</a></li>
         </ul>
     </li>
     <li class="tocheader"><span>Using services</span>
         <ul>
-            <li><a href="/docs/reference/using_services/data_feeds.html" {% if page.url == "/docs/reference/using_services/data_feeds.html" %}class="active"{% endif %}>Data feeds</a></li>
-            <li><a href="/docs/reference/using_services/notifications.html" {% if page.url == "/docs/reference/using_services/notifications.html" %}class="active"{% endif %}>Notifications</a>
-            <li><a href="/docs/reference/using_services/request_response.html" {% if page.url == "/docs/reference/using_services/request_response.html" %}class="active"{% endif %}>Request/response</a>
+            <li {% if page.url == "/docs/reference/using_services/data_feeds" %}class="active"{% endif %}><a href="/docs/reference/using_services/data_feeds.html">Data feeds</a></li>
+            <li {% if page.url == "/docs/reference/using_services/notifications" %}class="active"{% endif %}><a href="/docs/reference/using_services/notifications.html">Notifications</a></li>
+            <li {% if page.url == "/docs/reference/using_services/request_response" %}class="active"{% endif %}><a href="/docs/reference/using_services/request_response.html">Request/response</a></li>
         </ul>
     </li>
     <li class="tocheader"><span>Platforms</span>
         <ul>
-            <li><a href="/docs/reference/platforms/register_platform.html" {% if page.url == "/docs/reference/platforms/register_platform.html" %}class="active"{% endif %}>Register a platform</a>
-            <li><a href="/docs/reference/platforms/register_platform_type.html" {% if page.url == "/docs/reference/platforms/register_platform_type.html" %}class="active"{% endif %}>Register a platform type</a>
-            <li><a href="/docs/reference/platforms/deregister_platform.html" {% if page.url == "/docs/reference/platforms/deregister_platform.html" %}class="active"{% endif %}>Deregister a platform</a>
-            <li><a href="/docs/reference/platforms/deregister_platform_type.html" {% if page.url == "/docs/reference/platforms/deregister_platform_type.html" %}class="active"{% endif %}>Deregister a platform type</a>
-            <li><a href="/docs/reference/platforms/query_platform.html" {% if page.url == "/docs/reference/platforms/query_platform.html" %}class="active"{% endif %}>Querying for platforms</a>
-            <li><a href="/docs/reference/platforms/query_platform_type.html" {% if page.url == "/docs/reference/platforms/query_platform_type.html" %}class="active"{% endif %}>Querying for platform types</a>
+            <li {% if page.url == "/docs/reference/platforms/register_platform" %}class="active"{% endif %}><a href="/docs/reference/platforms/register_platform.html">Register a platform</a></li>
+            <li {% if page.url == "/docs/reference/platforms/register_platform_type" %}class="active"{% endif %}><a href="/docs/reference/platforms/register_platform_type.html">Register a platform type</a></li>
+            <li {% if page.url == "/docs/reference/platforms/deregister_platform" %}class="active"{% endif %}><a href="/docs/reference/platforms/deregister_platform.html">Deregister a platform</a></li>
+            <li {% if page.url == "/docs/reference/platforms/deregister_platform_type" %}class="active"{% endif %}><a href="/docs/reference/platforms/deregister_platform_type.html">Deregister a platform type</a></li>
+            <li {% if page.url == "/docs/reference/platforms/query_platform" %}class="active"{% endif %}><a href="/docs/reference/platforms/query_platform.html">Querying for platforms</a></li>
+            <li {% if page.url == "/docs/reference/platforms/query_platform_type" %}class="active"{% endif %}><a href="/docs/reference/platforms/query_platform_type.html">Querying for platform types</a></li>
         </ul>
-    </li>
     </li>
     <li class="tocheader"><span>Nodes</span>
         <ul>
-            <li><a href="/docs/reference/nodes/register_node.html" {% if page.url == "/docs/reference/nodes/register_node.html" %}class="active"{% endif %}>Register a node</a>
-            <li><a href="/docs/reference/nodes/deregister_node.html" {% if page.url == "/docs/reference/nodes/deregister_node.html" %}class="active"{% endif %}>Deregister a node</a>
-            <li><a href="/docs/reference/nodes/query_nodes.html" {% if page.url == "/docs/reference/nodes/query_nodes.html" %}class="active"{% endif %}>Querying for nodes</a>
-            <li><a href="/docs/reference/nodes/query_local_node_id.html" {% if page.url == "/docs/reference/nodes/query_local_node_id.html" %}class="active"{% endif %}>Querying for the local Edgware node ID</a>
-        </ul>
-    <li class="tocheader"><span>Bearers (networks)</span>
-        <ul>
-            <li><a href="/docs/reference/bearers/register_bearer.html" {% if page.url == "/docs/reference/bearers/register_bearer.html" %}class="active"{% endif %}>Register a bearer (network)</a>
-            <li><a href="/docs/reference/bearers/deregister_bearer.html" {% if page.url == "/docs/reference/bearers/deregister_bearer.html" %}class="active"{% endif %}>Deregister a bearer (network)</a>
-            <li><a href="/docs/reference/bearers/query_bearers.html" {% if page.url == "/docs/reference/bearers/query_bearers.html" %}class="active"{% endif %}>Querying for bearers (networks)</a>
+            <li {% if page.url == "/docs/reference/nodes/register_node" %}class="active"{% endif %}><a href="/docs/reference/nodes/register_node.html">Register a node</a></li>
+            <li {% if page.url == "/docs/reference/nodes/deregister_node" %}class="active"{% endif %}><a href="/docs/reference/nodes/deregister_node.html">Deregister a node</a></li>
+            <li {% if page.url == "/docs/reference/nodes/query_nodes" %}class="active"{% endif %}><a href="/docs/reference/nodes/query_nodes.html">Querying for nodes</a></li>
+            <li {% if page.url == "/docs/reference/nodes/query_local_node_id" %}class="active"{% endif %}><a href="/docs/reference/nodes/query_local_node_id.html">Querying for the local Edgware node ID</a></li>
         </ul>
     </li>
+    <li class="tocheader"><span>Bearers (networks)</span>
+        <ul>
+            <li {% if page.url == "/docs/reference/bearers/register_bearer" %}class="active"{% endif %}><a href="/docs/reference/bearers/register_bearer.html">Register a bearer (network)</a></li>
+            <li {% if page.url == "/docs/reference/bearers/deregister_bearer" %}class="active"{% endif %}><a href="/docs/reference/bearers/deregister_bearer.html">Deregister a bearer (network)</a></li>
+            <li {% if page.url == "/docs/reference/bearers/query_bearers" %}class="active"{% endif %}><a href="/docs/reference/bearers/query_bearers.html">Querying for bearers (networks)</a></li>
+        </ul>
     </li>
     <li class="tocheader"><span>Users</span>
         <ul>
-            <li><a href="/docs/reference/users/register_user.html" {% if page.url == "/docs/reference/users/register_user.html" %}class="active"{% endif %}>Register a user</a>
-            <li><a href="/docs/reference/users/register_user_type.html" {% if page.url == "/docs/reference/users/register_user_type.html" %}class="active"{% endif %}>Register a user type</a>
-            <li><a href="/docs/reference/users/deregister_user.html" {% if page.url == "/docs/reference/users/deregister_user.html" %}class="active"{% endif %}>Deregister a user</a>
-            <li><a href="/docs/reference/users/deregister_user_type.html" {% if page.url == "/docs/reference/users/deregister_user_type.html" %}class="active"{% endif %}>Deregister a user type</a>
-            <li><a href="/docs/reference/users/query_user.html" {% if page.url == "/docs/reference/users/query_user.html" %}class="active"{% endif %}>Querying for users</a>
-            <li><a href="/docs/reference/users/query_user_type.html" {% if page.url == "/docs/reference/users/query_user_type.html" %}class="active"{% endif %}>Querying for user types</a>
+            <li {% if page.url == "/docs/reference/users/register_user" %}class="active"{% endif %}><a href="/docs/reference/users/register_user.html">Register a user</a></li>
+            <li {% if page.url == "/docs/reference/users/register_user_type" %}class="active"{% endif %}><a href="/docs/reference/users/register_user_type.html">Register a user type</a></li>
+            <li {% if page.url == "/docs/reference/users/deregister_user" %}class="active"{% endif %}><a href="/docs/reference/users/deregister_user.html">Deregister a user</a></li>
+            <li {% if page.url == "/docs/reference/users/deregister_user_type" %}class="active"{% endif %}><a href="/docs/reference/users/deregister_user_type.html">Deregister a user type</a></li>
+            <li {% if page.url == "/docs/reference/users/query_user" %}class="active"{% endif %}><a href="/docs/reference/users/query_user.html">Querying for users</a></li>
+            <li {% if page.url == "/docs/reference/users/query_user_type" %}class="active"{% endif %}><a href="/docs/reference/users/query_user_type.html">Querying for user types</a></li>
         </ul>
     </li>
     <li class="tocheader"><span>Status messages and codes</span>
         <ul>
-            <li><a href="/docs/reference/status/status.html" {% if page.url == "/docs/reference/status/status.html" %}class="active"{% endif %}>Status messages and codes</a>
+            <li {% if page.url == "/docs/reference/status/status" %}class="active"{% endif %}><a href="/docs/reference/status/status.html">Status messages and codes</a></li>
         </ul>
     </li>
 </ul>
 
 <script>
     $(function() {
-        $("li.tocheader ul").hide();
-        var active = $("li.tocheader a.active").parent().parent();
-        active.prev().addClass("active");
-        active.show();
-        $("li.tocheader>span").not(".active").click(function(e) {
-            $("li.tocheader>span").not(".active").next().hide({duration:"fast"});
-            $(this).next().toggle("fast");
-        });
+        $(".toc-expander").click(function() {
+            if ($("ul.toc").hasClass('open')) {
+                $("ul.toc").removeClass('open');
+            } else {
+                $("ul.toc").addClass('open');
+            }
+        })
     });
 </script>
