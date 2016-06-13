@@ -1,4 +1,4 @@
 name: Edgware
 markdown: kramdown
-pygments: true
+highlight: pygments
 permalink: /blog/:categories/:year/:month/:day/:title.html
