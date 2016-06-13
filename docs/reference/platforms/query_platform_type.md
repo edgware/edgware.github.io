@@ -17,7 +17,7 @@ The `query:platform-types` message may also include the following optional field
 | `type`   | \<platform-type>            | Query for a specific platform type. |
 | `attr`   | \<platform-type-attributes> | Query for specific platform type attributes; will match any platform type containing these attributes exactly as specified. |
 
-If no optional fields are specified then the full list of available plaform types will be returned. Each optional field can contain a wildcard character ("\*") matching any string. Wildcards can be used alone or with partial text. Omitting an optional field is be equivalent to giving it the value "\*".
+If no optional fields are specified then the full list of available platform types will be returned. Each optional field can contain a wildcard character ("\*") matching any string. Wildcards can be used alone or with partial text. Omitting an optional field is be equivalent to giving it the value "\*".
 
 Matching platform types are returned in a JSON message of the form:
 

@@ -7,7 +7,7 @@ Platforms, systems and services that consume information all need to be register
 
 Note that registration only needs to be done once. The information will persist in the Edgware Registry until it is either explicitly deleted or the Registry is re-initialised. If Edgware is being used with a pre-configured system then registration might be done as part of the installation process.
 
-Whilst this page focusses on a consumer of information, Edgware systems will often be both producers and consumers. The *system type* defines that a system has inputs, outputs or both.
+Whilst this page focuses on a consumer of information, Edgware systems will often be both producers and consumers. The *system type* defines that a system has inputs, outputs or both.
 
 ### Register a platform
 
@@ -25,7 +25,7 @@ Where:
 * `op` indicates the operation to be performed by this message, in this case registering a new platform.
 * `id` is our own name for the platform.
 * `type` gives a type to the platform. Here we use the built-in type `app`.
-* `correl` is a correlation ID. When we receive a response from Edgware related to this message it will contain this same correlaion ID.
+* `correl` is a correlation ID. When we receive a response from Edgware related to this message it will contain this same correlation ID.
 
 ### Register a system
 
@@ -103,7 +103,7 @@ Where:
 
 ### Delivery of data feed messages
 
-We can now ready to received temperature readings from the bus. When one is published it will arrive in a message of the form:
+We are now ready to receive temperature readings from the bus. When one is published it will arrive in a message of the form:
 
 	{
 		"op" : "feed-message",
