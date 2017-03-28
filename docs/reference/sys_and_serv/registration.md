@@ -80,6 +80,12 @@ To register a new system type, a JSON message of the following form is sent to t
         <td>The service type.</td>
     </tr>
     <tr>
+        <td rowspan="4"></td>
+        <td><code>mode</code></td>
+        <td>&lt;service-mode id&gt;</td>
+        <td>The mode of the service, one of <code>input-feed</code>, <code>output-feed</code>, <code>notification</code>, <code>listener</code>, <code>solicit-response</code> or <code>request-response</code>.</td>
+    </tr>
+    <tr>
         <td colspan="3">The following optional fields can be used to register additional information about each service:</td>
     </tr>
     <tr>
@@ -140,7 +146,6 @@ To register a new service type, a JSON message of the following form is sent to 
 | ------- | ----------------------- | ------------- 
 | `op`    | `register:service-type` | Identifies a service type registration message. |
 | `type`  | \<service-type>         | The service type to be registered. |
-| `mode`  | \<service-mode>         | The mode of the service type, one of `input-feed`, `output-feed`, `notification`, `listener`, `solicit-response` or `request-response`.
 
 The `register:service-type` message may also include the following optional fields:
  
