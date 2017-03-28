@@ -74,13 +74,12 @@ To register a new system type, a JSON message of the following form is sent to t
         <td>Identifies the list of services for this system type.</td>
     </tr>
     <tr>
-        <td rowspan="4"></td>
+        <td rowspan="5"></td>
         <td><code>type</code></td>
         <td>&lt;service-type id&gt;</td>
         <td>The service type.</td>
     </tr>
     <tr>
-        <td rowspan="4"></td>
         <td><code>mode</code></td>
         <td>&lt;service-mode id&gt;</td>
         <td>The mode of the service, one of <code>input-feed</code>, <code>output-feed</code>, <code>notification</code>, <code>listener</code>, <code>solicit-response</code> or <code>request-response</code>.</td>
